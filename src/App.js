@@ -1,8 +1,61 @@
+import { CssBaseline } from "@mui/material";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Nav from './components/Nav';
+import Header from './components/Header';
+import About from './components/About';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      dark: '#1565c0',
+      main: '#1976d2',
+      light:'#42a5f5'
+    },
+    secondary: {
+      dark:'#7b1fa2',
+      main:'#9c27b0',
+      light:'#ba68c8'
+    },
+    error: {
+      dark:'#c62828',
+      main:'#d32f2f',
+      light:'#ef5350'
+    },
+    warning: {
+      dark:'#e65100',
+      main:'#ed6c02',
+      light:'#ff9800'
+    },
+    info: {
+      dark:'#01579b',
+      main:'#0288d1',
+      light:'#03a9f4'
+    },
+    success: {
+      dark:'#1b5e20',
+      main:'#2e7d32',
+      light:'#4caf50'
+    },
+    custom: {
+      white:'#ffffff',
+      grey:'#c1c5d0',
+      purple:'#6768ab',
+      violet:'#656291',
+      blue: '#47589e',
+      dark:'#0b0b2f'
+    }
+  },
+});
 
 
 function App() {
   return (
-    <div>Hello world</div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Nav />
+      <Header/>
+      <About/>
+    </ThemeProvider> 
   );
 }
 
