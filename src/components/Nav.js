@@ -3,8 +3,37 @@ import {Toolbar,Typography,Button,ListItemText,ListItem,ListItemButton,List,Icon
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link, animateScroll as scroll } from "react-scroll";
 
+
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact'];
+const navItems = [
+  <Link
+    activeClass="active"
+    to="section1"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}> 
+    Home     
+  </Link>,
+  <Link
+    activeClass="active"
+    to="section2"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}> 
+    About     
+  </Link>,
+  <Link
+    activeClass="active"
+    to="section3"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}> 
+    Skills     
+  </Link>
+]
 
 const Nav = (props) => {
   const { window } = props;
@@ -21,11 +50,13 @@ const Nav = (props) => {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
+        {navItems.map((item)=>(
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
+                <ListItemText>
+                  {item}
+                </ListItemText>
+              </ListItemButton>
           </ListItem>
         ))}
       </List>
