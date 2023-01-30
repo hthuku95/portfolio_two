@@ -2,7 +2,7 @@ import {Container,Grid,Typography} from "@mui/material";
 
 const About = () =>{
     return (
-        <Container>
+        <Container id='section2'>
             <Grid container spacing={2} columns={16}>
                 <Grid item xs={16} sm={16} md={8} lg={8} xl={8} height="100vh">
                 <Typography variant="h3">
