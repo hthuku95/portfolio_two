@@ -4,6 +4,7 @@ import Main from  './Main';
 
 
 const theme = createTheme({
+  spacing:8,
   palette: {
     custom: {
       white:'#ffffff',
