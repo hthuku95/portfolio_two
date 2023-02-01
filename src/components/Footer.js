@@ -2,10 +2,10 @@ import {Container,Typography,Link,Box} from '@mui/material'
 
 function Copyright() {
     return (
-      <Typography variant="body2" color="text.secondary" align="center">
+      <Typography sx={{color:'custom.white'}} variant="body2" color="text.secondary" align="center">
         {'Copyright © '}
         <Link color="inherit" href="https://harrythuku.netlify.app">
-          Resume
+          devThuku
         </Link>{' '}
         {new Date().getFullYear()}
         {'.'}
@@ -15,7 +15,7 @@ function Copyright() {
 
 const Footer = () => {
     return (
-        <Box component="footer" sx={{ bgcolor: 'custom.dark', py: 6 }}>
+        <Box component="footer" id='section5' sx={{ backgroundColor: 'custom.dark', color:'custom.white', py: 6 }}>
         <Container maxWidth="lg">
           <Typography variant="h6" align="center" gutterBottom>
             Get in touch
