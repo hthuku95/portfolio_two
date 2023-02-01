@@ -22,16 +22,25 @@ const navItems = [
     smooth={true}
     offset={-70}
     duration={500}> 
-    About     
+    Skills   
   </Link>,
-  <Link
+    <Link
     activeClass="active"
     to="section3"
     spy={true}
     smooth={true}
     offset={-70}
     duration={500}> 
-    Skills     
+    Projects 
+  </Link>,
+  <Link
+    activeClass="active"
+    to="section4"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}> 
+    About    
   </Link>
 ]
 
@@ -68,8 +77,7 @@ const Nav = (props) => {
   return (
     <Box sx={{ display: 'flex' }}>
       <AppBar component="nav" sx={{
-            backgroundColor:"secondary.main",
-            color:"custom.white"
+            backgroundColor:"custom.dark",
         }}>
         <Toolbar>
           <IconButton
