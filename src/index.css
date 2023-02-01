@@ -6,9 +6,3 @@
   --w:#c1c5d0;
   --s:#ffffff;
 }
-
-
-.appBar {
-  background-color: var(--s);
-  color: var(--v);
-}
