@@ -41,6 +41,15 @@ const navItems = [
     offset={-70}
     duration={500}> 
     About    
+  </Link>,
+  <Link
+    activeClass="active"
+    to="section5"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}> 
+    Contact  
   </Link>
 ]
 
@@ -119,7 +128,13 @@ const Nav = (props) => {
             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
           }}
         >
-          {drawer}
+          <Box sx={{
+            backgroundColor:'custom.blue',
+            color:'custom.white',
+            height:'100vh'
+            }}>
+           {drawer}
+          </Box>
         </Drawer>
       </Box>
       <Box component="main" sx={{ p: 3 }}>
