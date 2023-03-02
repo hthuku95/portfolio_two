@@ -42,7 +42,7 @@ const Projects = () =>{
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                HtoStudios
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
                                 Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -56,6 +56,74 @@ const Projects = () =>{
                         </Card>
                     </TabPanel>
 
+                    <TabPanel value="1" sx={{color:'custom.violet'}}>
+                        <Card sx={{ maxWidth: 345 }}>
+                            <CardMedia
+                                sx={{ height: 140 }}
+                                image="/static/images/cards/contemplative-reptile.jpg"
+                                title="green iguana"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                Studyhelp
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                                species, ranging across all continents except Antarctica
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small">Share</Button>
+                                <Button size="small">Learn More</Button>
+                            </CardActions>
+                        </Card>
+                    </TabPanel>
+
+                    <TabPanel value="1" sx={{color:'custom.violet'}}>
+                        <Card sx={{ maxWidth: 345 }}>
+                            <CardMedia
+                                sx={{ height: 140 }}
+                                image="/static/images/cards/contemplative-reptile.jpg"
+                                title="green iguana"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                Stepain Token
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                                species, ranging across all continents except Antarctica
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small">Share</Button>
+                                <Button size="small">Learn More</Button>
+                            </CardActions>
+                        </Card>
+                    </TabPanel>
+
+                    <TabPanel value="1" sx={{color:'custom.violet'}}>
+                        <Card sx={{ maxWidth: 345 }}>
+                            <CardMedia
+                                sx={{ height: 140 }}
+                                image="/static/images/cards/contemplative-reptile.jpg"
+                                title="green iguana"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                Yield Farm
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                                species, ranging across all continents except Antarctica
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small">Share</Button>
+                                <Button size="small">Learn More</Button>
+                            </CardActions>
+                        </Card>
+                    </TabPanel>
                     <TabPanel value="2" sx={{color:'custom.violet'}}>
                         <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia
@@ -65,7 +133,30 @@ const Projects = () =>{
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                    Lizard
+                                    HtoStudios
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                    Lizards are a widespread group of squamate reptiles, with over 6,000
+                                    species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small">Share</Button>
+                                    <Button size="small">Learn More</Button>
+                                </CardActions>
+                            </Card>
+                    </TabPanel>
+
+                    <TabPanel value="2" sx={{color:'custom.violet'}}>
+                        <Card sx={{ maxWidth: 345 }}>
+                                <CardMedia
+                                    sx={{ height: 140 }}
+                                    image="/static/images/cards/contemplative-reptile.jpg"
+                                    title="green iguana"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                    Studyhelp
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
                                     Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -81,6 +172,28 @@ const Projects = () =>{
 
                     <TabPanel value="3" sx={{color:'custom.violet'}}>
                         <Card sx={{ maxWidth: 345 }}>
+                            <CardMedia
+                                sx={{ height: 140 }}
+                                image="/static/images/cards/contemplative-reptile.jpg"
+                                title="green iguana"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                HtoStudios
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                Lizards are a widespread group of squamate reptiles, with over 6,000
+                                species, ranging across all continents except Antarctica
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small">Share</Button>
+                                <Button size="small">Learn More</Button>
+                            </CardActions>
+                        </Card>
+                    </TabPanel>
+                    <TabPanel value="3" sx={{color:'custom.violet'}}>
+                        <Card sx={{ maxWidth: 345 }}>
                                 <CardMedia
                                     sx={{ height: 140 }}
                                     image="/static/images/cards/contemplative-reptile.jpg"
@@ -88,7 +201,29 @@ const Projects = () =>{
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                    Lizard
+                                    Stepain Token
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                    Lizards are a widespread group of squamate reptiles, with over 6,000
+                                    species, ranging across all continents except Antarctica
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small">Share</Button>
+                                    <Button size="small">Learn More</Button>
+                                </CardActions>
+                            </Card>
+                    </TabPanel>
+                    <TabPanel value="3" sx={{color:'custom.violet'}}>
+                        <Card sx={{ maxWidth: 345 }}>
+                                <CardMedia
+                                    sx={{ height: 140 }}
+                                    image="/static/images/cards/contemplative-reptile.jpg"
+                                    title="green iguana"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                    YieldFarm
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
                                     Lizards are a widespread group of squamate reptiles, with over 6,000
