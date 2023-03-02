@@ -49,6 +49,15 @@ const navItems = [
     smooth={true}
     offset={-70}
     duration={500}> 
+    Blog  
+  </Link>,
+    <Link
+    activeClass="active"
+    to="section6"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}> 
     Contact  
   </Link>
 ]
