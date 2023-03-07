@@ -19,7 +19,7 @@ function Copyright() {
 
 const Footer = () => {
     return (
-        <Box component="footer" id='section6' sx={{ backgroundColor: 'custom.dark', color:'custom.white', py: 6 }}>
+        <Box component="footer" id='section5' sx={{ backgroundColor: 'custom.dark', color:'custom.white', py: 6 }}>
         <Container maxWidth="lg">
           <Typography variant="h6" align="center" gutterBottom='true' sx={{
             marginBottom:4
