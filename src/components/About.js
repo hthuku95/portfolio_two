@@ -13,7 +13,7 @@ const About = () =>{
         <Container id='section4' >
             <Grid container spacing={2} columns={16}>
                 <Grid item xs={16} sm={16} md={8} lg={8} xl={8} height='100vh'>
-                    <Typography variant="h3" sx={{color:'custom.blue'}} >About Me</Typography>
+                    <Typography variant="h3" align='center' sx={{color:'custom.blue'}} >About Me</Typography>
                     <AboutLogo style={styles.svg}/>
                 </Grid>
                 <Grid item xs={16} sm={16} md={8} lg={8} xl={8} >
