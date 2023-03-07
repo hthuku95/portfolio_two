@@ -42,18 +42,9 @@ const navItems = [
     duration={500}> 
     About    
   </Link>,
-  <Link
-    activeClass="active"
-    to="section5"
-    spy={true}
-    smooth={true}
-    offset={-70}
-    duration={500}> 
-    Blog  
-  </Link>,
     <Link
     activeClass="active"
-    to="section6"
+    to="section5"
     spy={true}
     smooth={true}
     offset={-70}
