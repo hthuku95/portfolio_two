@@ -4,7 +4,6 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import Blog from './components/Blog';
 import {Box} from '@mui/material';
 
 const Main = ()=>{
@@ -16,7 +15,6 @@ const Main = ()=>{
             <Skills />
             <Projects/>
             <About />
-            <Blog />
             <Footer/>
         </Box>
     )
