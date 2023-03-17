@@ -12,9 +12,9 @@ const Main = ()=>{
         <Box sx={{backgroundColor:"custom.grey"}}>
             <Nav />
             <Header />
-            <Skills />
-            <Projects/>
             <About />
+            <Projects/>
+            <Skills />
             <Footer/>
         </Box>
     )
