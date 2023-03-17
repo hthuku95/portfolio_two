@@ -16,7 +16,7 @@ const Projects = () =>{
 
     return (
         <Container id='section3' height="100vh">
-            <Typography variant='h3' align='center' sx={{color:'custom.blue'}} gutterBottom='true'>
+            <Typography variant='h3' align='center' sx={{color:'custom.blue',paddingTop:'60px'}} gutterBottom='true'>
                 Projects
             </Typography>
             <Box sx={{ width: '100%', typography: 'body1',marginBottom:'60px' }}>
@@ -36,54 +36,78 @@ const Projects = () =>{
                     <Grid container spacing={0}>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="1" sx={{color:'custom.violet'}}>
-                                <Project projectName="HtoStudios" projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"/>
+                                <Project 
+                                    projectName="HtoStudios" 
+                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    githubLink="https://www.github.com/hthuku95/hto"
+                                    liveLink="https://www.htostudios.com"
+                                />
                             </TabPanel>
                         </Grid>
 
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="1" sx={{color:'custom.violet'}}>
-                                <Project projectName="Studyhelp" projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"/>
+                                <Project 
+                                    projectName="Stepain Token" 
+                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    githubLink="https://www.github.com/hthuku95/stepain_token"
+                                    liveLink="https://testnet.bscscan.com/address/0x5e074f7ef6672ef88cc36548dcf647d36"
+                                />
                             </TabPanel>
                         </Grid>
 
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="1" sx={{color:'custom.violet'}}>
-                                <Project projectName="Stepain Token" projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"/>
-                            </TabPanel>
-                        </Grid>
-
-                        <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
-                            <TabPanel value="1" sx={{color:'custom.violet'}}>
-                                <Project projectName="Yield Farm" projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"/>
+                                <Project 
+                                    projectName="Yield Farm" 
+                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    githubLink=""
+                                    liveLink=""
+                                />
                             </TabPanel>
                         </Grid>
                     </Grid>
                     <Grid container spacing={0.5}>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="2" sx={{color:'custom.violet'}}>
-                                <Project projectName="HtoStudios" projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"/>
-                            </TabPanel>
-                        </Grid>
-                        <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
-                            <TabPanel value="2" sx={{color:'custom.violet'}}>
-                                <Project projectName="Studyhelp" projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"/>
+                                <Project 
+                                    projectName="HtoStudios" 
+                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    githubLink="https://www.github.com/hthuku95/hto"
+                                    liveLink="https://www.htostudios.com"
+                                />
                             </TabPanel>
                         </Grid>
                     </Grid>
                     <Grid container spacing={0.5}>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="3" sx={{color:'custom.violet'}}>
-                                <Project projectName="Stepain Token" projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"/>
+                                <Project 
+                                    projectName="Stepain Token" 
+                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    githubLink="https://www.github.com/hthuku95/stepain_token"
+                                    liveLink="https://testnet.bscscan.com/address/0x5e074f7ef6672ef88cc36548dcf647d36"
+                                />
                             </TabPanel>
                         </Grid>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="3" sx={{color:'custom.violet'}}>
-                                <Project projectName="HtoStudios" projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"/>
+                                <Project 
+                                    projectName="HtoStudios" 
+                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    githubLink="https://www.github.com/hthuku95/hto"
+                                    liveLink="https://www.htostudios.com"
+                                />
                             </TabPanel>
                         </Grid>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="3" sx={{color:'custom.violet'}}>
-                                <Project projectName="Yield Farm" projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"/>
+                                <Project 
+                                    projectName="Yield Farm" 
+                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    githubLink=""
+                                    liveLink=""
+                                />
                             </TabPanel>
                         </Grid>
                     </Grid>
