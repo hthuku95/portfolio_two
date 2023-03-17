@@ -22,7 +22,7 @@ const navItems = [
     smooth={true}
     offset={-70}
     duration={500}> 
-    Skills   
+    About 
   </Link>,
     <Link
     activeClass="active"
@@ -40,7 +40,7 @@ const navItems = [
     smooth={true}
     offset={-70}
     duration={500}> 
-    About    
+    Skills   
   </Link>,
     <Link
     activeClass="active"
