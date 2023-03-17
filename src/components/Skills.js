@@ -99,17 +99,32 @@ const Skills = () => {
             "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
             "alt":"The Logo for Git",
             "title":"Git"
+        },
+        {
+            "id":16,
+            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+            "alt":"The Logo for Github",
+            "title":"Github"
+        },
+        {
+            "id":17,
+            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
+            "alt":"The Logo for Gitlab",
+            "title":"Gitlab"
+        },
+        {
+            "id":18,
+            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
+            "alt":"The Logo for Digital Ocean",
+            "title":"Digitalocean"
         }
     ]
 
     return (
-        <Container id='section2' align='center' gutterBottom='true'>
+        <Container id='section4' align='center' gutterBottom='true'>
             <Box sx={{marginBottom:'60px'}}>
-                <Typography variant="h3" sx={{color:'custom.blue'}} gutterBottom='true'>
+                <Typography variant="h3" sx={{color:'custom.blue',paddingTop:'60px'}} gutterBottom='true'>
                     Skills
-                </Typography>
-                <Typography variant="h5" align='center' sx={{color:'custom.violet'}} gutterBottom='true'>
-                    Technologies I work with 
                 </Typography>
                 <Box sx={{
                     display:'flex',
