@@ -3,7 +3,7 @@ import {Box} from '@mui/material';
 const Skill = (props) => {
     return (
         <Box sx={{
-            p:1,
+            p:2,
             m:2,
             borderRadius: '16px',
             width:'100px',
