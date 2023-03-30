@@ -49,9 +49,19 @@ const Projects = () =>{
                             <TabPanel value="1" sx={{color:'custom.violet'}}>
                                 <Project 
                                     projectName="Stepain Token" 
-                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    projectDescription="A BEP20 smart contract deployed on Binance Smart Chain that includes Staking/Unstaking, Anti-bot, Anti-whale and users are charged developement and marketing fees."
                                     githubLink="https://www.github.com/hthuku95/stepain_token"
-                                    liveLink="https://testnet.bscscan.com/address/0x5e074f7ef6672ef88cc36548dcf647d36"
+                                    liveLink="https://testnet.bscscan.com/address/0xF2d8A812aca84D69aDc8FE55E753A66d41d01534"
+                                />
+                            </TabPanel>
+                        </Grid>
+                        <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
+                            <TabPanel value="1" sx={{color:'custom.violet'}}>
+                                <Project 
+                                    projectName="$MRC_NFT" 
+                                    projectDescription="An NFT smart contract deployed on Binance Smart Chain that includes a reward claiming system that incentivizes user engagement by offering BEP20 tokens. The project also provides features such as staking and unstaking of NFTs, a buy and sell marketplace, NFT leveling up, and NFT renting."
+                                    githubLink="https://www.github.com/hthuku95/stepain_nft"
+                                    liveLink="https://testnet.bscscan.com/address/0xccd60e519b2dfc80e807d0bb4efebc998a0bb797"
                                 />
                             </TabPanel>
                         </Grid>
@@ -78,25 +88,35 @@ const Projects = () =>{
                                 />
                             </TabPanel>
                         </Grid>
+                        <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
+                            <TabPanel value="2" sx={{color:'custom.violet'}}>
+                                <Project 
+                                    projectName="Yield Farm" 
+                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    githubLink=""
+                                    liveLink=""
+                                />
+                            </TabPanel>
+                        </Grid>
                     </Grid>
                     <Grid container spacing={0.5}>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="3" sx={{color:'custom.violet'}}>
                                 <Project 
                                     projectName="Stepain Token" 
-                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
+                                    projectDescription="A BEP20 smart contract deployed on Binance Smart Chain that includes Staking/Unstaking, Anti-bot, Anti-whale and users are charged developement and marketing fees."
                                     githubLink="https://www.github.com/hthuku95/stepain_token"
-                                    liveLink="https://testnet.bscscan.com/address/0x5e074f7ef6672ef88cc36548dcf647d36"
+                                    liveLink="https://testnet.bscscan.com/address/0xF2d8A812aca84D69aDc8FE55E753A66d41d01534"
                                 />
                             </TabPanel>
                         </Grid>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="3" sx={{color:'custom.violet'}}>
                                 <Project 
-                                    projectName="HtoStudios" 
-                                    projectDescription="Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica"
-                                    githubLink="https://www.github.com/hthuku95/hto"
-                                    liveLink="https://www.htostudios.com"
+                                    projectName="$MRC_NFT" 
+                                    projectDescription="An NFT smart contract deployed on Binance Smart Chain that includes a reward claiming system that incentivizes user engagement by offering BEP20 tokens. The project also provides features such as staking and unstaking of NFTs, a buy and sell marketplace, NFT leveling up, and NFT renting."
+                                    githubLink="https://www.github.com/hthuku95/stepain_nft"
+                                    liveLink="https://testnet.bscscan.com/address/0xccd60e519b2dfc80e807d0bb4efebc998a0bb797"
                                 />
                             </TabPanel>
                         </Grid>
