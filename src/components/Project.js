@@ -12,8 +12,8 @@ const Project = (props) => {
              }}>
             <CardMedia
                 sx={{ height: 140 }}
-                image="/static/images/cards/contemplative-reptile.jpg"
-                title="green iguana"
+                image={props.imageSrc}
+                title={props.projectName}
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
