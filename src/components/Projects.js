@@ -135,7 +135,7 @@ const Projects = () =>{
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="3" sx={{color:'custom.violet'}}>
                                 <Project 
-                                    imagesrc={yieldfarm}
+                                    imageSrc={yieldfarm}
                                     projectName="Yield Farm" 
                                     projectDescription="A Full stack web3 Yield Farm Dapp that allows users to stake ERC20 Tokens and claim rewards built with react python and solidity."
                                     githubLink=""
