@@ -9,7 +9,7 @@ function Copyright() {
     return (
       <Typography sx={{color:'custom.white'}} variant="body2" color="text.secondary" align="center">
         {'Copyright © '}
-        <Link color="inherit" href="https://harrythuku.netlify.app">
+        <Link color="inherit" href="https://www.linkedin.com/in/hthuku/">
           devThuku
         </Link>{' '}
         {new Date().getFullYear()}
