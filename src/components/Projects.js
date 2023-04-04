@@ -40,7 +40,22 @@ const Projects = () =>{
                     <Grid container spacing={0}>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="1" sx={{color:'custom.violet'}}>
-                                <Project 
+                                <Project
+                                    languageOne={
+                                        <i class="devicon-python-plain colored"></i>
+                                      }
+                                    languageTwo={
+                                        <i class="devicon-django-plain colored"></i>
+                                      }
+                                    languageThree={
+                                        <i class="devicon-javascript-plain colored"></i>
+                                      }
+                                    languageFour={
+                                        <i class="devicon-digitalocean-plain colored"></i>
+                                      }
+                                    languageFive={
+                                        <i class="devicon-amazonwebservices-original colored"></i>
+                                      }
                                     imageSrc={htostudios}
                                     projectName="HtoStudios" 
                                     projectDescription="HtoStudios is a platform for learning blockchain development that provides resources and tools for building decentralized applications and contributing to the growth of the industry."
@@ -53,6 +68,15 @@ const Projects = () =>{
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="1" sx={{color:'custom.violet'}}>
                                 <Project 
+                                    languageOne={
+                                        <i class="devicon-solidity-plain colored"></i>
+                                      }
+                                    languageTwo={
+                                        <i class="devicon-python-plain colored"></i>
+                                      }
+                                    languageThree={
+                                        <i class="devicon-bash-plain colored"></i>
+                                      }
                                     imageSrc={mrctoken}
                                     projectName="$MRC_TOKEN" 
                                     projectDescription="A BEP20 smart contract deployed on Binance Smart Chain that includes Staking/Unstaking, Anti-bot, Anti-whale and users are charged developement and marketing fees."
@@ -63,7 +87,16 @@ const Projects = () =>{
                         </Grid>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="1" sx={{color:'custom.violet'}}>
-                                <Project 
+                                <Project
+                                    languageOne={
+                                        <i class="devicon-solidity-plain colored"></i>
+                                      }
+                                    languageTwo={
+                                        <i class="devicon-python-plain colored"></i>
+                                      }
+                                    languageThree={
+                                        <i class="devicon-bash-plain colored"></i>
+                                      }
                                     imageSrc={mrcnft}
                                     projectName="$MRC_NFT" 
                                     projectDescription="A Binance Smart Chain NFT contract with reward incentives for user engagement, featuring staking, a marketplace, leveling up, and renting."
@@ -75,7 +108,22 @@ const Projects = () =>{
 
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="1" sx={{color:'custom.violet'}}>
-                                <Project 
+                                <Project
+                                    languageOne={
+                                        <i class="devicon-solidity-plain colored"></i>
+                                      }
+                                    languageTwo={
+                                        <i class="devicon-python-plain colored"></i>
+                                      }
+                                    languageThree={
+                                        <i class="devicon-typescript-plain colored"></i>
+                                      }
+                                    languageFour={
+                                        <i class="devicon-react-original colored"></i>
+                                      }
+                                    languageFive={
+                                        <i class="devicon-materialui-plain colored"></i>
+                                      }
                                     imageSrc={yieldfarm}
                                     projectName="Yield Farm" 
                                     projectDescription="A Full stack web3 Yield Farm Dapp that allows users to stake ERC20 Tokens and claim rewards built with react, python, typescript and solidity."
@@ -89,6 +137,21 @@ const Projects = () =>{
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="2" sx={{color:'custom.violet'}}>
                                 <Project
+                                    languageOne={
+                                        <i class="devicon-python-plain colored"></i>
+                                      }
+                                    languageTwo={
+                                        <i class="devicon-django-plain colored"></i>
+                                      }
+                                    languageThree={
+                                        <i class="devicon-javascript-plain colored"></i>
+                                      }
+                                    languageFour={
+                                        <i class="devicon-digitalocean-plain colored"></i>
+                                      }
+                                    languageFive={
+                                        <i class="devicon-amazonwebservices-original colored"></i>
+                                      }
                                     imageSrc={htostudios} 
                                     projectName="HtoStudios" 
                                     projectDescription="HtoStudios is a platform for learning blockchain development that provides resources and tools for building decentralized applications and contributing to the growth of the industry."
@@ -99,7 +162,22 @@ const Projects = () =>{
                         </Grid>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="2" sx={{color:'custom.violet'}}>
-                                <Project 
+                                <Project
+                                    languageOne={
+                                        <i class="devicon-solidity-plain colored"></i>
+                                      }
+                                    languageTwo={
+                                        <i class="devicon-python-plain colored"></i>
+                                      }
+                                    languageThree={
+                                        <i class="devicon-typescript-plain colored"></i>
+                                      }
+                                    languageFour={
+                                        <i class="devicon-react-original colored"></i>
+                                      }
+                                    languageFive={
+                                        <i class="devicon-materialui-plain colored"></i>
+                                      }
                                     imageSrc={yieldfarm}
                                     projectName="Yield Farm" 
                                     projectDescription="A Full stack web3 Yield Farm Dapp that allows users to stake ERC20 Tokens and claim rewards built with react, python, typescript and solidity."
@@ -113,6 +191,15 @@ const Projects = () =>{
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="3" sx={{color:'custom.violet'}}>
                                 <Project 
+                                    languageOne={
+                                        <i class="devicon-solidity-plain colored"></i>
+                                      }
+                                    languageTwo={
+                                        <i class="devicon-python-plain colored"></i>
+                                      }
+                                    languageThree={
+                                        <i class="devicon-bash-plain colored"></i>
+                                      }
                                     imageSrc={mrctoken}
                                     projectName="$MRC_TOKEN" 
                                     projectDescription="A BEP20 smart contract deployed on Binance Smart Chain that includes Staking/Unstaking, Anti-bot, Anti-whale and users are charged developement and marketing fees."
@@ -124,6 +211,15 @@ const Projects = () =>{
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="3" sx={{color:'custom.violet'}}>
                                 <Project
+                                    languageOne={
+                                        <i class="devicon-solidity-plain colored"></i>
+                                      }
+                                    languageTwo={
+                                        <i class="devicon-python-plain colored"></i>
+                                      }
+                                    languageThree={
+                                        <i class="devicon-bash-plain colored"></i>
+                                      }
                                     imageSrc={mrcnft} 
                                     projectName="$MRC_NFT" 
                                     projectDescription="A Binance Smart Chain NFT contract with reward incentives for user engagement, featuring staking, a marketplace, leveling up, and renting."
@@ -134,7 +230,22 @@ const Projects = () =>{
                         </Grid>
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
                             <TabPanel value="3" sx={{color:'custom.violet'}}>
-                                <Project 
+                                <Project
+                                    languageOne={
+                                        <i class="devicon-solidity-plain colored"></i>
+                                      }
+                                    languageTwo={
+                                        <i class="devicon-python-plain colored"></i>
+                                      }
+                                    languageThree={
+                                        <i class="devicon-typescript-plain colored"></i>
+                                      }
+                                    languageFour={
+                                        <i class="devicon-react-original colored"></i>
+                                      }
+                                    languageFive={
+                                        <i class="devicon-materialui-plain colored"></i>
+                                      }
                                     imageSrc={yieldfarm}
                                     projectName="Yield Farm" 
                                     projectDescription="A Full stack web3 Yield Farm Dapp that allows users to stake ERC20 Tokens and claim rewards built with react python and solidity."
