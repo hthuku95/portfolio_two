@@ -22,7 +22,7 @@ const Header = () => {
                          p:4,
                          color:'custom.blue'
                          }}>
-                        Full Stack Web & Blockchain Developer
+                        Freelance Web & Blockchain Developer
                     </Typography>
                     <Typography variant="body1" sx={{
                         marginLeft:4,
