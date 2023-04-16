@@ -71,6 +71,7 @@ const Projects = () =>{
                                     projectDescription="HtoStudios is a platform for learning blockchain development that provides resources and tools for building decentralized applications and contributing to the growth of the industry."
                                     githubLink="https://www.github.com/hthuku95/hto"
                                     liveLink="https://www.htostudios.com"
+                                    projectTag="Blog"
                                 />
                             </TabPanel>
                         </Grid>
@@ -92,6 +93,7 @@ const Projects = () =>{
                                     projectDescription="A BEP20 smart contract deployed on Binance Smart Chain that includes Staking/Unstaking, Anti-bot, Anti-whale and users are charged developement and marketing fees."
                                     githubLink="https://www.github.com/hthuku95/stepain_token"
                                     liveLink="https://testnet.bscscan.com/address/0xF2d8A812aca84D69aDc8FE55E753A66d41d01534"
+                                    projectTag="Freelance"
                                 />
                             </TabPanel>
                         </Grid>
@@ -112,6 +114,7 @@ const Projects = () =>{
                                     projectDescription="A Binance Smart Chain NFT contract with reward incentives for user engagement, featuring staking, a marketplace, leveling up, and renting."
                                     githubLink="https://www.github.com/hthuku95/stepain_nft"
                                     liveLink="https://testnet.bscscan.com/address/0xccd60e519b2dfc80e807d0bb4efebc998a0bb797"
+                                    projectTag="Freelance"
                                 />
                             </TabPanel>
                         </Grid>
@@ -139,6 +142,7 @@ const Projects = () =>{
                                     projectDescription="A Full stack web3 Yield Farm Dapp that allows users to stake ERC20 Tokens and claim rewards built with react, python, typescript and solidity."
                                     githubLink=""
                                     liveLink=""
+                                    projectTag="Portfolio"
                                 />
                             </TabPanel>
                         </Grid>
@@ -167,6 +171,7 @@ const Projects = () =>{
                                     projectDescription="HtoStudios is a platform for learning blockchain development that provides resources and tools for building decentralized applications and contributing to the growth of the industry."
                                     githubLink="https://www.github.com/hthuku95/hto"
                                     liveLink="https://www.htostudios.com"
+                                    projectTag="Blog"
                                 />
                             </TabPanel>
                         </Grid>
@@ -193,6 +198,7 @@ const Projects = () =>{
                                     projectDescription="A Full stack web3 Yield Farm Dapp that allows users to stake ERC20 Tokens and claim rewards built with react, python, typescript and solidity."
                                     githubLink=""
                                     liveLink=""
+                                    projectTag="Portfolio"
                                 />
                             </TabPanel>
                         </Grid>
@@ -215,6 +221,7 @@ const Projects = () =>{
                                     projectDescription="A BEP20 smart contract deployed on Binance Smart Chain that includes Staking/Unstaking, Anti-bot, Anti-whale and users are charged developement and marketing fees."
                                     githubLink="https://www.github.com/hthuku95/stepain_token"
                                     liveLink="https://testnet.bscscan.com/address/0xF2d8A812aca84D69aDc8FE55E753A66d41d01534"
+                                    projectTag="Freelance"
                                 />
                             </TabPanel>
                         </Grid>
@@ -235,6 +242,7 @@ const Projects = () =>{
                                     projectDescription="A Binance Smart Chain NFT contract with reward incentives for user engagement, featuring staking, a marketplace, leveling up, and renting."
                                     githubLink="https://www.github.com/hthuku95/stepain_nft"
                                     liveLink="https://testnet.bscscan.com/address/0xccd60e519b2dfc80e807d0bb4efebc998a0bb797"
+                                    projectTag="Freelance"
                                 />
                             </TabPanel>
                         </Grid>
@@ -261,6 +269,7 @@ const Projects = () =>{
                                     projectDescription="A Full stack web3 Yield Farm Dapp that allows users to stake ERC20 Tokens and claim rewards built with react, python, typescript and solidity."
                                     githubLink=""
                                     liveLink=""
+                                    projectTag="Portfolio"
                                 />
                             </TabPanel>
                         </Grid>
