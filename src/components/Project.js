@@ -1,6 +1,7 @@
 import {Card,CardMedia,CardContent,Typography,CardActions,Link,Button,Box} from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import VisibilityIcon from '@mui/icons-material/Visibility';
+import Chip from '@mui/material/Chip';
 
 
 const Project = (props) => {
@@ -20,27 +21,36 @@ const Project = (props) => {
                 <Typography gutterBottom variant="h5" component="div">
                 {props.projectName}
                 </Typography>
-                <Typography guterBottom variant="h5" component="div" sx={{
-                    display: 'inline-flex',
-                    width:1,
-                    justifyContent: 'flex-end'
-                }}>
-                    <Box pl={1}>
-                        {props.languageOne}
-                    </Box>
-                    <Box pl={1}>
-                        {props.languageTwo}
-                    </Box>
-                    <Box pl={1}>
-                        {props.languageThree}
-                    </Box>
-                    <Box pl={1}>
-                        {props.languageFour}
-                    </Box>
-                    <Box pl={1}>
-                        {props.languageFive}
-                    </Box>
-                </Typography>
+                <Box>
+                    <Typography gutterBottom variant='body1' component="div" sx={{
+                        display: 'inline-flex',
+                        width:1,
+                        justifyContent: 'flex-start'
+                    }}>
+                        <Chip label={props.projectTag} />
+                    </Typography>
+                    <Typography guterBottom variant="h5" component="div" sx={{
+                        display: 'inline-flex',
+                        width:1,
+                        justifyContent: 'flex-end'
+                    }}>
+                        <Box pl={1}>
+                            {props.languageOne}
+                        </Box>
+                        <Box pl={1}>
+                            {props.languageTwo}
+                        </Box>
+                        <Box pl={1}>
+                            {props.languageThree}
+                        </Box>
+                        <Box pl={1}>
+                            {props.languageFour}
+                        </Box>
+                        <Box pl={1}>
+                            {props.languageFive}
+                        </Box>
+                    </Typography>
+                </Box>
                 <Typography variant="body2" color="custom.grey">
                 {props.projectDescription}
                 </Typography>
