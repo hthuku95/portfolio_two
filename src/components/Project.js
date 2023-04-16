@@ -21,13 +21,12 @@ const Project = (props) => {
                 <Typography gutterBottom variant="h5" component="div">
                 {props.projectName}
                 </Typography>
-                <Box>
-                    <Typography gutterBottom variant='body1' component="div" sx={{
-                        display: 'inline-flex',
-                        width:1,
-                        justifyContent: 'flex-start'
-                    }}>
-                        <Chip label={props.projectTag} />
+                <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <Typography gutterBottom variant='body1' component="div">
+                        <Chip label={props.projectTag} sx={{
+                            color: 'custom.white',
+                            backgroundColor: 'custom.blue'
+                        }}/>
                     </Typography>
                     <Typography guterBottom variant="h5" component="div" sx={{
                         display: 'inline-flex',
