@@ -1,4 +1,4 @@
-import {Container,Typography,Box} from "@mui/material";
+import {Container,Typography,Box,Grid} from "@mui/material";
 import Skill from "./Skill";
 
 const Skills = () => {
@@ -36,31 +36,31 @@ const Skills = () => {
         },
         {
             "id":5,
-            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
+            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
             "alt":"The Logo for Next.js",
             "title":"Next.js"
         },
         {
             "id":6,
-            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg",
+            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
             "alt":"The Logo for Django",
             "title":"Django"
         },
         {
             "id":7,
-            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
             "alt":"The Logo for Node.js",
             "title":"Node.js"
         },
         {
             "id":8,
-            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
             "alt":"The Logo for Express.js",
             "title":"Express.js"
         },
         {
             "id":9,
-            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg",
+            "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
             "alt":"The Logo for PostgreSQL",
             "title":"PostgreSQL"
         },
@@ -111,28 +111,44 @@ const Skills = () => {
             "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
             "alt":"The Logo for Gitlab",
             "title":"Gitlab"
-        },
+        }
+        /**
         {
             "id":18,
             "src":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
             "alt":"The Logo for Digital Ocean",
             "title":"Digitalocean"
         }
+         */
     ]
 
     return (
         <Container id='section4' align='center' gutterBottom='true'>
             <Box sx={{marginBottom:'60px'}}>
-                <Typography variant="h3" sx={{color:'custom.blue',paddingTop:'60px'}} gutterBottom='true'>
+                <Typography variant="h3" sx={{
+                    color:'custom.blue',
+                    padding: '0 40px',
+                    paddingTop:'40px', 
+                    paddingBottom:'25px', 
+                    borderBottom: 4,
+                    display: 'inline-block', 
+                    width: 'fit-content',
+                    marginBottom: '40px' 
+                    }} 
+                    gutterBottom='true'>
                     Skills
                 </Typography>
                 <Box sx={{
                     display:'flex',
                     flexWrap: 'wrap'
                 }}>
-                    {sources.map((source) => (
-                        <Skill source={source.src} alt={source.alt} title={source.title} key={source.id} />
-                    ))}
+                    <Grid container spacing={3} columns={18}>
+                        {sources.map((source) => (
+                            <Grid item xs={9} sm={6} md={3} lg={3} xl={3}>
+                                <Skill source={source.src} alt={source.alt} title={source.title} key={source.id} />
+                            </Grid>
+                        ))}
+                    </Grid>
                 </Box>  
             </Box>
         </Container>
