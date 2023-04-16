@@ -20,10 +20,20 @@ const Projects = () =>{
 
     return (
         <Container id='section3' height="100vh">
-            <Typography variant='h3' align='center' sx={{color:'custom.blue',paddingTop:'60px'}} gutterBottom='true'>
-                Projects
-            </Typography>
             <Box sx={{ width: '100%', typography: 'body1',marginBottom:'60px' }}>
+                <Typography variant="h3" sx={{
+                    color:'custom.blue',
+                    padding: '0 40px',
+                    paddingTop:'40px', 
+                    paddingBottom:'25px', 
+                    borderBottom: 4,
+                    display: 'inline-block', 
+                    width: 'fit-content',
+                    marginBottom: '40px' 
+                    }} 
+                    gutterBottom='true'>
+                    Projects
+                </Typography>
                 <TabContext value={value}>
                     <Box sx={{
                             display: 'flex',
@@ -248,7 +258,7 @@ const Projects = () =>{
                                       }
                                     imageSrc={yieldfarm}
                                     projectName="Yield Farm" 
-                                    projectDescription="A Full stack web3 Yield Farm Dapp that allows users to stake ERC20 Tokens and claim rewards built with react python and solidity."
+                                    projectDescription="A Full stack web3 Yield Farm Dapp that allows users to stake ERC20 Tokens and claim rewards built with react, python, typescript and solidity."
                                     githubLink=""
                                     liveLink=""
                                 />
