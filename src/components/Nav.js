@@ -64,7 +64,7 @@ const Nav = (props) => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h4" sx={{ my: 2, p: 2 }}>
-        Harry Thuku
+        devThuku
       </Typography>
       <Divider />
       <List>
@@ -103,7 +103,7 @@ const Nav = (props) => {
             component="div"
             sx={{ p: 2, flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            Harry Thuku
+            devThuku
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
