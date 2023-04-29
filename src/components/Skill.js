@@ -15,6 +15,7 @@ const Skill = (props) => {
                 <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>
                     <Box sx={{
                         p:1,
+                        m:1,
                         display: 'flex',
                         justifyContent: 'center',
                         width: "75%",
