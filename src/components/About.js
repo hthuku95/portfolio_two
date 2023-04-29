@@ -32,7 +32,9 @@ const About = () =>{
                         variant="body1" 
                         sx={{ 
                             p:4,
-                            color:'custom.violet'
+                            color:'custom.violet',
+                            marginBottom:'8px',
+                            paddingBottom:'8px'
                         }} 
                         gutterBottom='true'>
                             With a strong foundation in mathematics and computer science, I bring a unique combination of academic education and self-taught experience to my expertise in web development and blockchain technology. My passion for innovation in the tech industry has led me to delve deeply into the latest advancements in the fields of blockchain, artificial intelligence (AI), and web3.
@@ -41,6 +43,7 @@ const About = () =>{
                         variant="body1" 
                         sx={{ 
                             p:4,
+                            pt:1,
                             color:'custom.violet'
                         }} 
                         gutterBottom='true'>
@@ -50,6 +53,7 @@ const About = () =>{
                         variant="body1" 
                         sx={{ 
                             p:4,
+                            pt:1,
                             color:'custom.violet'
                         }} 
                         gutterBottom='true'>
@@ -59,6 +63,7 @@ const About = () =>{
                         variant="body1" 
                         sx={{ 
                             p:4,
+                            pt:1,
                             color:'custom.violet'
                         }} 
                         gutterBottom='true'>
