@@ -42,7 +42,7 @@ const navItems = [
     duration={500}> 
     Skills   
   </Link>,
-    <Link
+  <Link
     activeClass="active"
     to="section5"
     spy={true}
