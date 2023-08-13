@@ -94,6 +94,7 @@ const Projects = () =>{
         projectTag="Portfolio"
       />
     ]
+
     const webProjects = [
       <Project
         languageOne={
@@ -136,6 +137,7 @@ const Projects = () =>{
         projectTag="Portfolio"
       />
     ]
+
     const blockchainProjects = [
       <Project 
         languageOne={
@@ -195,6 +197,7 @@ const Projects = () =>{
         projectTag="Portfolio"
       />
     ]
+    
     return (
         <Container id='section3' height="100vh">
             <Box sx={{ width: '100%', typography: 'body1',marginBottom:'60px' }}>
