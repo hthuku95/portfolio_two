@@ -22,7 +22,7 @@ const Header = () => {
                          p:2,
                          color:'custom.blue'
                          }}>
-                        Freelance Web & Blockchain Developer
+                        Software Developer and Security Researcher
                     </Typography>
                     <Typography variant="body1" sx={{
                         marginLeft:4,
@@ -31,7 +31,7 @@ const Header = () => {
                     }}
                     gutterBottom='true'
                     >
-                        Full Stack Web & Blockchain Developer with expertise in web development and blockchain technology. Skilled in creating secure and innovative solutions. Committed to delivering user-centered outcomes and always seeking new challenges.
+                        Full Stack Software Developer with expertise in web development and blockchain technology. Skilled in creating secure and innovative solutions. Committed to delivering user-centered outcomes and always seeking new challenges.
                     </Typography>
                     <Typography sx={{
                         marginLeft:4,
@@ -54,7 +54,7 @@ const Header = () => {
                             }}>
                                 <TwitterIcon fontSize="large"/>
                             </Link>
-                            <Link href="mailto: harrythukuomolloh@gmail.com" underline="none" color="inherit" sx={{
+                            <Link href="mailto: harry@devthuku.io" underline="none" color="inherit" sx={{
                                 marginRight:2
                             }}>
                                 <EmailIcon fontSize="large"/>
