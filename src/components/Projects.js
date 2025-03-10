@@ -403,7 +403,7 @@ const Projects = () =>{
                             <Tab label="All Projects" value="1" sx={{color:'custom.violet'}}/>
                             <Tab label="Web Projects" value="2" sx={{color:'custom.violet'}}/>
                             <Tab label="Blockchain" value="3" sx={{color:'custom.violet'}}/>
-                            <Tab label="AI" value="4" sx={{color:'custom.violet'}}/>
+                            <Tab label="AI Projects" value="4" sx={{color:'custom.violet'}}/>
                         </TabList>
                     </Box>
                     <Grid container spacing={0.5}>
@@ -436,7 +436,7 @@ const Projects = () =>{
                     <Grid container spacing={0.5}>
                       {aiProjects.map((project)=>(
                         <Grid item xs={16} sm={16} md={8} lg={4} xl={4} gutterBottom='true'>
-                          <TabPanel value="3" sx={{color:'custom.violet'}}>
+                          <TabPanel value="4" sx={{color:'custom.violet'}}>
                             {project}
                           </TabPanel>
                         </Grid>
