@@ -1,42 +1,38 @@
-import {Box,Grid,Typography} from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 const Skill = (props) => {
-    return (
-        <Box sx={{
-            p:1,
-            m:1,
-            borderRadius: '16px',
-            width:'190px',
-            height:'90px',
-            backgroundColor:'custom.blue',
-            color:'custom.white'
-        }} key={props.key}>
-            <Grid container spacing={1} columns={16}>
-                <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>
-                    <Box sx={{
-                        p:1,
-                        m:1,
-                        display: 'flex',
-                        justifyContent: 'center',
-                        width: "75%",
-                        height:"75%"
-                    }}>
-                        <img src={props.source} alt={props.alt} title={props.title} sx={{ width: "100%", height: "100%" }}/>
-                    </Box>   
-                </Grid>
-                <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>
-                    <Box sx={{
-                        p:2,
-                        m:1,
-                        display: 'flex',
-                        justifyContent: 'center'
-                    }}>
-                        <Typography variant='body1'>{props.title}</Typography>
-                    </Box>
-                </Grid>
-            </Grid>
-        </Box>
-    )
-}
+  return (
+    <Box
+      sx={{
+        p: 1.5,
+        borderRadius: '12px',
+        width: '100%',
+        minHeight: '80px',
+        backgroundColor: 'custom.blue',
+        color: 'custom.white',
+        display: 'flex',
+        alignItems: 'center',
+        gap: 1.5,
+        cursor: 'default',
+        transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+        '&:hover': {
+          transform: 'scale(1.06)',
+          boxShadow: '0 6px 20px rgba(71,88,158,0.5)',
+        },
+      }}
+    >
+      <Box
+        component="img"
+        src={props.source}
+        alt={props.alt}
+        title={props.title}
+        sx={{ width: 36, height: 36, flexShrink: 0 }}
+      />
+      <Typography variant="body2" sx={{ fontWeight: 500, lineHeight: 1.2 }}>
+        {props.title}
+      </Typography>
+    </Box>
+  );
+};
 
 export default Skill;

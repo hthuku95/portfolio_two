@@ -1,96 +1,82 @@
-import {Card,CardMedia,CardContent,Typography,CardActions,Link,Button,Box} from '@mui/material';
+import { Card, CardMedia, CardContent, Typography, CardActions, Link, Button, Box } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import Chip from '@mui/material/Chip';
 
-
 const Project = (props) => {
-
-    return (
-        <Card sx={{
-             maxWidth: 345,
-             backgroundColor:'custom.purple',
-             color:'custom.white'
-             }}>
-            <CardMedia
-                sx={{ height: 140 }}
-                image={props.imageSrc}
-                title={props.projectName}
-            />
-            <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                {props.projectName}
-                </Typography>
-                <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Typography gutterBottom variant='body1' component="div">
-                        <Chip label={props.projectTag} sx={{
-                            color: 'custom.white',
-                            backgroundColor: 'custom.blue'
-                        }}/>
-                    </Typography>
-                    <Typography guterBottom variant="h5" component="div" sx={{
-                        display: 'inline-flex',
-                        width:1,
-                        justifyContent: 'flex-end'
-                    }}>
-                        <Box pl={1}>
-                            {props.languageOne}
-                        </Box>
-                        <Box pl={1}>
-                            {props.languageTwo}
-                        </Box>
-                        <Box pl={1}>
-                            {props.languageThree}
-                        </Box>
-                        <Box pl={1}>
-                            {props.languageFour}
-                        </Box>
-                        <Box pl={1}>
-                            {props.languageFive}
-                        </Box>
-                    </Typography>
-                </Box>
-                <Typography variant="body2" color="custom.grey">
-                {props.projectDescription}
-                </Typography>
-            </CardContent>
-            <CardActions>
-                <Link href={props.githubLink} underline="none"  color="custom.white" sx={{
-
-                }}>
-                    <Button variant="contained" sx={{
-                        padding:'16px',
-                        marginBottom:'16px',
-                        backgroundColor:'custom.dark',
-                        '&:hover': {
-                            backgroundColor: 'custom.dark',
-                          },
-                    }}>
-                        <GitHubIcon fontSize='small'/>
-                        <Typography variant="body2" sx={{
-                            paddingLeft:'8px'
-                        }}>Source Code</Typography>
-                    </Button>
-                </Link>
-                <Link href={props.liveLink} underline="none"color="custom.white">
-                    <Button variant="outlined" sx={{
-                        color:'custom.white',
-                        borderColor:'custom.white',
-                        '&:hover': {
-                            borderColor: 'custom.white',
-                          },
-                        padding:'16px',
-                        marginBottom:'16px'
-                    }}>
-                        <VisibilityIcon fontSize='small'/>
-                        <Typography variant="body2" sx={{
-                            paddingLeft:'8px'
-                        }}>Live Preview</Typography>
-                    </Button>
-                </Link>
-            </CardActions>
-        </Card>
-    )
-}
+  return (
+    <Card
+      sx={{
+        width: '100%',
+        backgroundColor: 'custom.purple',
+        color: 'custom.white',
+        display: 'flex',
+        flexDirection: 'column',
+        transition: 'transform 0.25s ease, box-shadow 0.25s ease',
+        '&:hover': {
+          transform: 'translateY(-6px)',
+          boxShadow: '0 12px 28px rgba(0,0,0,0.35)',
+        },
+      }}
+    >
+      <CardMedia
+        sx={{ height: 160 }}
+        image={props.imageSrc}
+        title={props.projectName}
+      />
+      <CardContent sx={{ flexGrow: 1 }}>
+        <Typography gutterBottom variant="h5" component="div">
+          {props.projectName}
+        </Typography>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
+          <Chip
+            label={props.projectTag}
+            size="small"
+            sx={{ color: 'custom.white', backgroundColor: 'custom.blue' }}
+          />
+          <Box sx={{ display: 'inline-flex', gap: 0.5 }}>
+            {props.languageOne}
+            {props.languageTwo}
+            {props.languageThree}
+            {props.languageFour}
+            {props.languageFive}
+          </Box>
+        </Box>
+        <Typography variant="body2" color="custom.grey">
+          {props.projectDescription}
+        </Typography>
+      </CardContent>
+      <CardActions sx={{ p: 2, pt: 0, gap: 1 }}>
+        <Link href={props.githubLink} underline="none" color="custom.white" sx={{ flex: 1 }}>
+          <Button
+            fullWidth
+            variant="contained"
+            startIcon={<GitHubIcon fontSize="small" />}
+            sx={{
+              backgroundColor: 'custom.dark',
+              '&:hover': { backgroundColor: 'custom.dark', opacity: 0.85 },
+            }}
+          >
+            Source
+          </Button>
+        </Link>
+        <Link href={props.liveLink} underline="none" color="custom.white" sx={{ flex: 1 }}>
+          <Button
+            fullWidth
+            variant="outlined"
+            startIcon={<VisibilityIcon fontSize="small" />}
+            sx={{
+              color: 'custom.white',
+              borderColor: 'custom.white',
+              '&:hover': { borderColor: 'custom.grey', opacity: 0.85 },
+            }}
+          >
+            Live
+          </Button>
+        </Link>
+      </CardActions>
+    </Card>
+  );
+};
 
 export default Project;
