@@ -17,7 +17,7 @@ const navItems = [
 ];
 
 const Nav = (props) => {
-  const { window } = props;
+  const { window: windowProp } = props;
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -25,6 +25,7 @@ const Nav = (props) => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleDrawerToggle = () => setMobileOpen((prev) => !prev);
@@ -61,7 +62,7 @@ const Nav = (props) => {
     </Box>
   );
 
-  const container = window !== undefined ? () => window().document.body : undefined;
+  const container = windowProp !== undefined ? () => windowProp().document.body : undefined;
 
   return (
     <Box sx={{ display: 'flex' }}>
